@@ -16,11 +16,11 @@ a {
 /* #endregion */
 
 /* #region Common */
-.hero-titel,
+
 .team-titel,
 .portfolio-titel {
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -101,6 +101,9 @@ a {
 }
 .hero-titel {
   font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
   color: #fff;
 }
 .hero-button {
@@ -136,16 +139,24 @@ a {
   background-color: #f4f4fd;
 }
 
+.team-titel {
+  text-transform: capitalize;
+}
+
 .team-list {
 }
+
 .team-item {
   background-color: #fff;
 }
+
 .team-img {
 }
+
 .team-subtitel {
   text-align: center;
 }
+
 .team-text {
   text-align: center;
 }
@@ -153,6 +164,10 @@ a {
 
 /* #region Portfolio */
 .portfolio {
+}
+
+.portfolio-titel {
+  text-transform: capitalize;
 }
 
 .portfolio-list {
